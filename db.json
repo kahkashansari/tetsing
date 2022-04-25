@@ -1,0 +1,35 @@
+{
+  "productList": [
+    {
+      "productName": "apple12345",
+      "category": "Fruits",
+      "freshness": "BrandNew",
+      "price": 30,
+      "comment": "Good",
+      "date": "2022-04-12T18:30:00.000Z",
+      "id": 13
+    },
+    {
+      "productName": "kkk",
+      "category": "Electronics",
+      "freshness": "BrandNew",
+      "price": 200,
+      "comment": "teys",
+      "date": "2022-04-12T18:30:00.000Z",
+      "id": 14
+    },
+    {
+      "productName": "wdcdw",
+      "category": "Vegetables",
+      "freshness": "BrandNew",
+      "price": 111111111111,
+      "comment": "JNK",
+      "date": "2022-04-13T18:30:00.000Z",
+      "id": 15
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

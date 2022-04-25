@@ -1,0 +1,16 @@
+<mat-card class="example-card" *ngFor="let ans of apiData">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{ans.original_title}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="https://www.themoviedb.org/t/p/w220_and_h330_face/{{ans.poster_path}}" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        {{ans.overview}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card>
